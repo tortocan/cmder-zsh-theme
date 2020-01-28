@@ -19,7 +19,7 @@ node_root () {
 }
 
 PROMPT='%{$FG[010]%}%~ %{$fg[cyan]%}%n@%m %{$fg_bold[white]%}$(git_prompt_info)%{$reset_color%} %{$fg[yellow]%}$(node_root)%{$reset_color%}
-$FG[244] λ %{$reset_color%} '
+$FG[244]%(!.#.λ)%{$reset_color%} '
 
 ZSH_THEME_GIT_PROMPT_PREFIX="("
 ZSH_THEME_GIT_PROMPT_SUFFIX=")"
